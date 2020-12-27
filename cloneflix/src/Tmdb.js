@@ -82,6 +82,8 @@ export default {
                         `/tv/${movieId}?language=pt-BR&api_key=${API_KEY}`
                     );
                     break;
+                default:
+                    console.log('erro');
             }
         }
         return info;
