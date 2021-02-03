@@ -4,7 +4,7 @@ import FeaturedMovie from "./components/FeaturedMovie/FeaturedMovie";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import MovieRow from "./components/MovieRow/MovieRow";
-import Tmdb from "./Tmdb";
+import {Tmdb} from "./Tmdb";
 
 const App = () => {
   const [movieList, setMovieList] = useState([]);
